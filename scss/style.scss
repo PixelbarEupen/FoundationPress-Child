@@ -1,0 +1,33 @@
+/*!
+ Theme Name:   Foundation Child Theme
+ Theme URI:    http://pixelbar.be
+ Description:  Child Theme des Foundation Themes. Es sichert die Updatefähigkeit.
+ Author:       Pixelbar
+ Author URI:   http://pixelbar.be
+ Template:     FoundationPress
+ Version:      1.0.0
+ Text Domain:  foundation-child-theme
+*/
+
+/* IMPORTS */
+	//ALLES VARS SIND IN DEN SETTINGS!!!!
+	@import "_settings"; //very important -> used to create app css (foundation settings)
+	@import "fonts";
+	@import "mixins";
+	@import "compass/css3/transform";
+	@import "compass/typography/text/replacement";
+	@import "compass/css3/transition";
+	@import "compass/css3/box-shadow";
+	@import "compass/css3/box-sizing";
+	@import "compass/css3/border-radius";
+	@import "compass/css3/columns";
+	@import "compass/layout/sticky-footer";
+
+	
+	
+
+
+/****************************************************/
+/****************************************************/
+/********************** STYLES **********************/
+/****************************************************/

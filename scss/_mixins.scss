@@ -1,0 +1,28 @@
+/*
+
+	this file stores custom mixins. !!! DO NOT REMOVE THE FIRST @IMPORT !!! IT HANDLES CUSTOM MIXINS LIKE TRIANGLES AND FONTSIZE
+
+*/
+
+@import '../../FoundationPress/scss/mixins';
+
+
+
+/************ BEGIN HERE WITH YOU CUSTOM MIXINS ************/
+
+//FONT -> von projekt zu projekt anzupassen
+	@mixin font($type) {
+		font-family: 'Open Sans', sans-serif;
+		@if $type == 'light' {
+			font-weight: 300;
+		}
+		@if $type == 'regular' {
+			font-weight: 400;
+		}
+		@if $type == 'medium' {
+			font-weight: 600;
+		}
+		@if $type == 'bold' {
+			font-weight: 700;
+		}
+	}
